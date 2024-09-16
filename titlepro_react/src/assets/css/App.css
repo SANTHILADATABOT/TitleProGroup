@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+.extra-w {
+    max-width: 90vw !important;
+}
+label {
+    color: #1a1a1a !important;
+    font-weight: 600;
+}
+.tex,td{
+            color: #1a1a1a !important;
+            font-weight: 600;
+}
+/* .page-wrapper .page-body-wrapper .page-body {
+    margin-top: 140px !important;
+} */
+.select2-container .select2-dropdown {
+    z-index: 9999;
+    /* Set to a higher value as needed */
+}
+/* Custom CSS for sort icons */
+.custom-sort-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ant-pagination .ant-pagination-item-active{
+border-color: transparent !important ;
+/* background-color: #3949ab ; */
+}
+/* .custom-sort-icon-container::before {
+    content: "\2191";
+    /* Upward arrow before the icon 
+    /* margin-right: 4px; 
+} */
+/* Customize focus style for Ant Design Input */
+.ant-input:focus,
+.ant-input:focus-within {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+}
+
+/* Customize focus style for Ant Design TextArea */
+.ant-input-textarea:focus {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+}
+
+/* Customize focus style for Ant Design Select */
+.ant-select .ant-select-selector:focus {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+}
+
+/* Customize focus style for Ant Design DatePicker */
+.ant-picker:focus {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+}
+
+/* Customize focus style for Ant Design Radio */
+.ant-radio-wrapper:focus-within {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+}
+
+/* Customize focus style for Ant Design Checkbox */
+/* .ant-checkbox-wrapper:focus-within {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+} */
+
+/* Customize focus style for Ant Design Switch */
+.ant-switch:focus {
+    outline: 0 !important;
+    border-color: #86b7fe !important;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25) !important;
+}
+.pagination-button {
+    height: 30px;
+    border-radius: 8px;
+    margin: 0 4px;
+}
+.card_title{
+    color: #3949ab;
+}
+.table-responsive::-webkit-scrollbar {
+    height: 5px;
+}
+
+/* Track */
+.table-responsive::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    height: 3px;
+}
+
+/* Handle */
+.table-responsive::-webkit-scrollbar-thumb {
+    background: #c5caec;
+}
+
+/* Handle on hover */
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background: #3949ab;
+}
+
+.photo-popup-content {
+    text-align: center;
+}
+
+.photo-popup-content .photo-popup-image {
+    height: 100%;
+    max-width: 100%;
+}
+#tabpanel .ant-tabs-tab-active{
+            color: #201d1d !important;
+            background: #6870d166 !important;
+
+}
+#tabpanel .ant-tabs-tab{
+    border-radius: 0 !important;
+}
+
+#tabpanel .ant-tabs .ant-tabs-tab:hover{
+    color: #201d1d !important;
+background-color: #e3e3e3 !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn{
+   color:#3949ab !important;
+}
